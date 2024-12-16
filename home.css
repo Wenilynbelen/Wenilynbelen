@@ -1,0 +1,71 @@
+*body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:grey;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    background-color: #fff;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.photo-gallery {
+    text-align: center;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1em;
+    background: url(" file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/finalexam/photo/gif5.gif");
+}
+
+.photo-item {
+    position: relative;
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about-me {
+    text-align: left;
+    color:white;
+    background: url(" file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/finalexam/photo/gif5.gif");
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.button {
+    border:white solid 2px;
+    width:10px;
+    height:10px;
+}

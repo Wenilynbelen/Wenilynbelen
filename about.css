@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/finalexam/photo/gif3.gif");
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: url("file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/finalexam/photo/gif3.gif");
+}
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: green;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+  color: white;
+}
+
+h3 {
+  color: green;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+.button {
+    border:white solid 2px;
+    width:10px;
+    height:10px;
+}
